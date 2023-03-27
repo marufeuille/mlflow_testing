@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mlflow-example"
+version = "0.1.0"
+description = ""
+authors = ["Masahiro Ishii <marufeuille@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mlflow_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
